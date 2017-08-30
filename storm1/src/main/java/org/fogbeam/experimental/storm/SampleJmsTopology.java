@@ -13,7 +13,6 @@ import org.apache.storm.jms.spout.JmsSpout;
 import org.apache.storm.topology.TopologyBuilder;
 import org.apache.storm.utils.Utils;
 
-
 public class SampleJmsTopology
 {
 	public static final String JMS_QUEUE_SPOUT = "JMS_QUEUE_SPOUT";

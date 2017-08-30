@@ -25,18 +25,21 @@
 	<!-- ActiveMQ -->
 
 	<!-- embedded ActiveMQ Broker -->
+	<!-- 
 	<amq:broker useJmx="false" persistent="false">
 		<amq:transportConnectors>
 			<amq:transportConnector uri="tcp://localhost:61616" />
 		</amq:transportConnectors>
 	</amq:broker>
 
+	-->
+	
 	<amq:queue id="notificationQueue" physicalName="backtype.storm.contrib.example.queue" />
 	
 	<amq:topic id="notificationTopic" physicalName="backtype.storm.contrib.example.topic" />
 
 	<amq:connectionFactory id="jmsConnectionFactory"
-		brokerURL="tcp://localhost:61616" />
+		brokerURL="tcp://52.201.251.165:61616" />
 
 <!-- 
 	<bean id="queueTemplate" class="org.springframework.jms.core.JmsTemplate">

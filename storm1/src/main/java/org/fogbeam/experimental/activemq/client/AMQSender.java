@@ -1,4 +1,4 @@
-package org.fogbeam.experimental.storm;
+package org.fogbeam.experimental.activemq.client;
 
 import javax.jms.Connection;
 import javax.jms.DeliveryMode;
@@ -17,7 +17,7 @@ public class AMQSender
 		
 		try {
             // Create a ConnectionFactory
-            ActiveMQConnectionFactory connectionFactory = new ActiveMQConnectionFactory("tcp://localhost:61616");
+            ActiveMQConnectionFactory connectionFactory = new ActiveMQConnectionFactory("tcp://52.201.251.165:61616");
 
             // Create a Connection
             Connection connection = connectionFactory.createConnection();
