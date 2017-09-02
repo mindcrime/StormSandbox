@@ -17,7 +17,7 @@
 	<groupId>org.fogbeam.storm</groupId>
 	<version>1.1.2-SNAPSHOT</version>
 	<packaging>jar</packaging>
-	<name>storm-starter</name>
+	<name>storm</name>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -52,6 +52,13 @@
 			<version>2.6.0</version>
 			<scope>test</scope>
 		</dependency>
+		
+		<dependency>
+			<groupId>org.apache.storm</groupId>
+      		<version>1.1.2-SNAPSHOT</version>
+      		<artifactId>storm-starter</artifactId>
+		</dependency>
+		
 		<dependency>
 			<groupId>org.apache.storm</groupId>
 			<artifactId>storm-core</artifactId>
